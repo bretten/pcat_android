@@ -1,0 +1,66 @@
+<resources>
+
+    <!--
+        Titles
+    -->
+    <string name="title_anc">CPN - PPO</string>
+    <string name="title_art">CCR - TARV</string>
+
+    <!--
+        Steps
+    -->
+    <!-- Step names -->
+    <string name="step_anc">@string/title_anc</string>
+    <string name="step_tp">População alvo de analise</string>
+    <string name="step_1">Etapa 1</string>
+    <string name="step_2">Etapa 2</string>
+    <string name="step_3">Etapa 3</string>
+    <string name="step_4">Etapa 4</string>
+    <string name="step_5">Etapa 5</string>
+    <string name="step_art">@string/title_art</string>
+    <string name="step_6">Etapa 6</string>
+    <string name="step_7">Etapa 7</string>
+    <!-- Step titles -->
+    <string name="step_tp_title_a">População alvo de US</string>
+    <string name="step_tp_title_b">% gravidez</string>
+    <string name="step_tp_title_c">Numero de meses</string>
+    <string name="step_tp_title_d">População alvo de analise</string>
+    <string name="step_1_title_a">1era consultas CPN durante o periodo de consideração</string>
+    <string name="step_2_title_a">Testada por HIV na 1era CPN</string>
+    <string name="step_2_title_b">HIV+ identificadas na 1era CPN</string>
+    <string name="step_2_title_c">Anteriormente identificada</string>
+    <string name="step_2_title_d">Identificada nas consultas seguintes</string>
+    <string name="step_2_title_e">Total mães HIV+</string>
+    <string name="step_3_title_a">Mães+ que iniciaram TARV ou PPO</string>
+    <string name="step_4_title_a">RN das mães HIV+ a receber PPO</string>
+    <string name="step_5_title_a">1era CCR</string>
+    <string name="step_6_title_a">Bebes em CCR com PCR &lt; 8 semanas</string>
+    <string name="step_6_title_b">Bebes em CCR identificada HIV+</string>
+    <string name="step_7_title_a">Bebes eligiveis que iniciam TARV</string>
+    <!-- Step input labels -->
+    <string name="step_input_label_total">Total</string>
+    <string name="step_input_label_percent">Percentagem %</string>
+    <string name="step_input_label_drop_off">Perda</string>
+    <string name="step_input_label_extra_anc">Numero completando extra através do passo 4, se cair fora eliminado</string>
+    <string name="step_input_label_extra_art">Numero completando extra através do passo 7, se cair fora eliminado</string>
+
+    <!--
+        Navigation drawer
+    -->
+    <!-- Strings for accessibility -->
+    <!-- Drawer items for the ANC section -->
+    <string-array name="drawer_items_anc">
+        <item>@string/step_tp</item>
+        <item>@string/step_1</item>
+        <item>@string/step_2</item>
+        <item>@string/step_3</item>
+        <item>@string/step_4</item>
+    </string-array>
+    <!-- Drawer items for the ART section -->
+    <string-array name="drawer_items_art">
+        <item>@string/step_5</item>
+        <item>@string/step_6</item>
+        <item>@string/step_7</item>
+    </string-array>
+
+</resources>

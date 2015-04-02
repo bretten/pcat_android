@@ -1,0 +1,171 @@
+<resources>
+
+    <string name="app_name" translatable="false">PCAT</string>
+
+    <!--
+        Titles
+    -->
+    <string name="title_anc">ANC - PPO</string>
+    <string name="title_art">At-Risk Child Consult - ART</string>
+
+    <!--
+        User notifications
+    -->
+    <string name="progress_saving" translatable="false">Saving&#8230;</string>
+    <string name="progress_loading" translatable="false">Loading&#8230;</string>
+
+    <!--
+        ActionBar and Menu items
+    -->
+    <string name="action_calculate" translatable="false">Recalculate</string>
+    <string name="action_previous" translatable="false">Previous</string>
+    <string name="action_next" translatable="false">Next</string>
+    <string name="action_about" translatable="false">About</string>
+
+    <!--
+        About DialogFragment
+    -->
+    <string name="about_confirmation">OK</string>
+    <string name="about_dialog_title">About</string>
+    <string name="about_title">About the PCAT</string>
+    <string name="about_description_header">The Tool</string>
+    <string name="about_description">
+        The PCAT is simplified cascade analysis tool for mid-level managers to reduce leakages in the pMTCT cascade.
+    </string>
+    <string name="about_legal_header">Legal</string>
+    <string name="about_legal_disclaimer">DISCLAIMER OF WARRANTY</string>
+    <string name="about_legal">
+        THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. WE MAKE NO WARRANTIES, EXPRESS OR IMPLIED, THAT THEY ARE FREE OF ERROR, OR ARE CONSISTENT WITH ANY PARTICULAR STANDARD OF MERCHANTABILITY, OR THAT THEY WILL MEET YOUR REQUIREMENTS FOR ANY PARTICULAR APPLICATION. THEY SHOULD NOT BE RELIED ON FOR SOLVING A PROBLEM WHOSE INCORRECT SOLUTION COULD RESULT IN INJURY TO A PERSON OR LOSS OF PROPERTY. IF YOU DO USE THEM IN SUCH A MANNER, IT IS AT YOUR OWN RISK. THE AUTHOR AND PUBLISHER DISCLAIM ALL LIABILITY FOR DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES RESULTING FROM YOUR USE OF THE PROGRAMS.
+    </string>
+    <string name="about_creator">Created By Iota Ink</string>
+
+    <!--
+        Application keys
+    -->
+    <!-- Bundle key for Step # -->
+    <string name="bundle_step" translatable="false">bundle_step</string>
+    <!-- SharedPreferences data filename -->
+    <string name="shared_preferences_data_filename" translatable="false">data</string>
+
+    <!--
+        Steps
+    -->
+    <!-- Step names -->
+    <string name="step_anc">@string/title_anc</string>
+    <string name="step_tp">Target Population</string>
+    <string name="step_1">Step 1</string>
+    <string name="step_2">Step 2</string>
+    <string name="step_3">Step 3</string>
+    <string name="step_4">Step 4</string>
+    <string name="step_5">Step 5</string>
+    <string name="step_art">@string/title_art</string>
+    <string name="step_6">Step 6</string>
+    <string name="step_7">Step 7</string>
+    <!-- Step titles -->
+    <string name="step_tp_title_a">Health facility catchment area</string>
+    <string name="step_tp_title_b">% pregnant</string>
+    <string name="step_tp_title_c">Number of months</string>
+    <string name="step_tp_title_d">Target population</string>
+    <string name="step_1_title_a">1st ANC visits</string>
+    <string name="step_2_title_a">HIV test at 1st ANC visit</string>
+    <string name="step_2_title_b">HIV+ women identified at 1st ANC visit</string>
+    <string name="step_2_title_c">Previously identified HIV+</string>
+    <string name="step_2_title_d">Identified HIV+ at later ANC visit</string>
+    <string name="step_2_title_e">Total HIV+ women</string>
+    <string name="step_3_title_a">HIV+ women who start ART or PPO</string>
+    <string name="step_4_title_a">Newborns of HIV+ women receiving PPO</string>
+    <string name="step_5_title_a">1st at-risk child visits</string>
+    <string name="step_6_title_a">Babies in at-risk care with PCR &lt; 8 weeks</string>
+    <string name="step_6_title_b">Babies identified HIV+ in at-risk care</string>
+    <string name="step_7_title_a">Eligible babies enrolled in ART</string>
+    <!-- Step input labels -->
+    <string name="step_input_label_total">Total</string>
+    <string name="step_input_label_percent">Percentage %</string>
+    <string name="step_input_label_drop_off">Drop Off</string>
+    <string name="step_input_label_extra_anc">Extra completing through step 4 if drop off eliminated</string>
+    <string name="step_input_label_extra_art">Extra completing through step 7 if drop off eliminated</string>
+
+    <!--
+        Navigation drawer
+    -->
+    <!-- Strings for accessibility -->
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <!-- Drawer items for the ANC section -->
+    <string-array name="drawer_items_anc">
+        <item>@string/step_tp</item>
+        <item>@string/step_1</item>
+        <item>@string/step_2</item>
+        <item>@string/step_3</item>
+        <item>@string/step_4</item>
+    </string-array>
+    <!-- Drawer items for the ART section -->
+    <string-array name="drawer_items_art">
+        <item>@string/step_5</item>
+        <item>@string/step_6</item>
+        <item>@string/step_7</item>
+    </string-array>
+
+    <!--
+        PCAT value constants
+    -->
+    <!-- ANC -> PPO % Pregnant -->
+    <string name="anc_pp_constant" translatable="false">0.05</string>
+
+    <!--
+        SharedPreferences keys
+    -->
+    <!-- ANC -> PPO -->
+    <string name="anc_hfca" translatable="false">anc_hfca</string>
+    <string name="anc_pp" translatable="false">anc_pp</string>
+    <string name="anc_nm" translatable="false">anc_nm</string>
+    <string name="anc_tp" translatable="false">anc_tp</string>
+    <!-- Step 1 A -->
+    <string name="s1_a_total" translatable="false">s1_a_total</string>
+    <string name="s1_a_percent" translatable="false">s1_a_percent</string>
+    <string name="s1_a_drop_off" translatable="false">s1_a_drop_off</string>
+    <string name="s1_a_extra" translatable="false">s1_a_extra</string>
+    <!-- Step 2 A -->
+    <string name="s2_a_total" translatable="false">s2_a_total</string>
+    <string name="s2_a_percent" translatable="false">s2_a_percent</string>
+    <string name="s2_a_drop_off" translatable="false">s2_a_drop_off</string>
+    <string name="s2_a_extra" translatable="false">s2_a_extra</string>
+    <!-- Step 2 B -->
+    <string name="s2_b_total" translatable="false">s2_b_total</string>
+    <string name="s2_b_percent" translatable="false">s2_b_percent</string>
+    <!-- Step 2 C -->
+    <string name="s2_c_total" translatable="false">s2_c_total</string>
+    <!-- Step 2 D -->
+    <string name="s2_d_total" translatable="false">s2_d_total</string>
+    <!-- Step 2 E -->
+    <string name="s2_e_total" translatable="false">s2_e_total</string>
+    <!-- Step 3 A -->
+    <string name="s3_a_total" translatable="false">s3_a_total</string>
+    <string name="s3_a_percent" translatable="false">s3_a_percent</string>
+    <string name="s3_a_drop_off" translatable="false">s3_a_drop_off</string>
+    <string name="s3_a_extra" translatable="false">s3_a_extra</string>
+    <!-- Step 4 A -->
+    <string name="s4_a_total" translatable="false">s4_a_total</string>
+    <string name="s4_a_percent" translatable="false">s4_a_percent</string>
+    <string name="s4_a_drop_off" translatable="false">s4_a_drop_off</string>
+    <string name="s4_a_extra" translatable="false">s4_a_extra</string>
+    <!-- Step 5 A -->
+    <string name="s5_a_total" translatable="false">s5_a_total</string>
+    <string name="s5_a_percent" translatable="false">s5_a_percent</string>
+    <string name="s5_a_drop_off" translatable="false">s5_a_drop_off</string>
+    <string name="s5_a_extra" translatable="false">s5_a_extra</string>
+    <!-- Step 6 A -->
+    <string name="s6_a_total" translatable="false">s6_a_total</string>
+    <string name="s6_a_percent" translatable="false">s6_a_percent</string>
+    <string name="s6_a_drop_off" translatable="false">s6_a_drop_off</string>
+    <string name="s6_a_extra" translatable="false">s6_a_extra</string>
+    <!-- Step 6 B -->
+    <string name="s6_b_total" translatable="false">s6_b_total</string>
+    <string name="s6_b_percent" translatable="false">s6_b_percent</string>
+    <!-- Step 7 A -->
+    <string name="s7_a_total" translatable="false">s7_a_total</string>
+    <string name="s7_a_percent" translatable="false">s7_a_percent</string>
+    <string name="s7_a_drop_off" translatable="false">s7_a_drop_off</string>
+    <string name="s7_a_extra" translatable="false">s7_a_extra</string>
+
+</resources>

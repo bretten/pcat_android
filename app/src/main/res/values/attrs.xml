@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="KeyedView">
+        <attr name="key" format="string" />
+        <attr name="isRounded" format="boolean" />
+        <attr name="isPercent" format="boolean" />
+    </declare-styleable>
+</resources>

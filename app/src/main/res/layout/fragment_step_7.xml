@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customNS="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        style="@style/Step.Title"
+        android:text="@string/title_art" />
+    <TextView
+        style="@style/Step.Subtitle"
+        android:text="@string/step_7" />
+
+    <View
+        style="@style/Step.Divider" />
+    <TextView
+        style="@style/Step.Header"
+        android:text="@string/step_7_title_a" />
+
+    <TextView
+        style="@style/Step.Label"
+        android:text="@string/step_input_label_total" />
+    <com.iotaink.pcat.widget.KeyedEditText
+        android:id="@+id/s7_a_total"
+        style="@style/Step.EditText"
+        customNS:key="@string/s7_a_total" />
+
+    <TextView
+        style="@style/Step.Label"
+        android:text="@string/step_input_label_percent" />
+    <com.iotaink.pcat.widget.KeyedTextView
+        android:id="@+id/s7_a_percent"
+        style="@style/Step.CalculatedValue"
+        customNS:key="@string/s7_a_percent"
+        customNS:isPercent="true" />
+
+    <TextView
+        style="@style/Step.Label"
+        android:text="@string/step_input_label_drop_off" />
+    <com.iotaink.pcat.widget.KeyedTextView
+        android:id="@+id/s7_a_drop_off"
+        style="@style/Step.CalculatedValue"
+        customNS:key="@string/s7_a_drop_off"
+        customNS:isRounded="true" />
+
+    <TextView
+        style="@style/Step.Label"
+        android:text="@string/step_input_label_extra_anc" />
+    <com.iotaink.pcat.widget.KeyedTextView
+        android:id="@+id/s7_a_extra"
+        style="@style/Step.CalculatedValue.Important"
+        customNS:key="@string/s7_a_extra"
+        customNS:isRounded="true" />
+
+</LinearLayout>

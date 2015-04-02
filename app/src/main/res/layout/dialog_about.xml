@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <TextView
+            android:text="@string/about_title"
+            style="@style/AppTheme.About.Title" />
+
+        <TextView
+            android:text="@string/about_description_header"
+            style="@style/AppTheme.About.Header" />
+
+        <TextView
+            android:text="@string/about_description"
+            style="@style/AppTheme.About.Text" />
+
+        <TextView
+            android:text="@string/about_legal_header"
+            style="@style/AppTheme.About.Header" />
+
+        <TextView
+            android:text="@string/about_legal_disclaimer"
+            style="@style/AppTheme.About.Header2" />
+        <TextView
+            android:text="@string/about_legal"
+            style="@style/AppTheme.About.Text" />
+
+        <TextView
+            android:text="@string/about_creator"
+            style="@style/AppTheme.About.Footer" />
+
+    </LinearLayout>
+</ScrollView>

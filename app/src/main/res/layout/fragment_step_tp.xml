@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customNS="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        style="@style/Step.Title"
+        android:text="@string/title_anc" />
+
+    <TextView
+        style="@style/Step.Label"
+        android:text="@string/step_tp_title_a" />
+    <com.iotaink.pcat.widget.KeyedEditText
+        android:id="@+id/anc_hfca"
+        style="@style/Step.EditText"
+        customNS:key="@string/anc_hfca" />
+
+    <TextView
+        style="@style/Step.Label"
+        android:text="@string/step_tp_title_b" />
+    <com.iotaink.pcat.widget.KeyedTextView
+        android:id="@+id/anc_pp"
+        style="@style/Step.CalculatedValue"
+        customNS:key="@string/anc_pp"
+        customNS:isPercent="true" />
+
+    <TextView
+        style="@style/Step.Label"
+        android:text="@string/step_tp_title_c" />
+    <com.iotaink.pcat.widget.KeyedEditText
+        android:id="@+id/anc_nm"
+        style="@style/Step.EditText"
+        customNS:key="@string/anc_nm" />
+
+    <TextView
+        style="@style/Step.Label"
+        android:text="@string/step_tp_title_d" />
+    <com.iotaink.pcat.widget.KeyedTextView
+        android:id="@+id/anc_tp"
+        style="@style/Step.CalculatedValue"
+        customNS:key="@string/anc_tp"
+        customNS:isRounded="true" />
+
+</LinearLayout>
